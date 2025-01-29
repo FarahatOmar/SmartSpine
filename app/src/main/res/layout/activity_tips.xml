@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tipsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Posture Tips"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Add more tips and exercises UI components here -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip 1: Maintain a neutral spine position."
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip 2: Take regular breaks to stretch."
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip 3: Adjust your workstation to ensure proper ergonomics."
+            android:textSize="14sp"
+            android:layout_marginBottom="5dp" />
+
+        <!-- Add more tips as needed -->
+
+    </LinearLayout>
+</ScrollView>

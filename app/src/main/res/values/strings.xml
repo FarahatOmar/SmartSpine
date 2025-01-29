@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartSpine</string>
+    <string name="channel_name">Posture Notifications</string>
+    <string name="channel_description">Notifications for posture monitoring</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+
+</resources>
